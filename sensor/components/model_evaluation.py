@@ -14,7 +14,7 @@ from sensor.entity.artifact_entity import *
 from sklearn.metrics import f1_score
 from sensor.components import data_transformation
 from sensor.config import TARGET_COLUMN
-from artifact import * 
+
 
 class ModelEvaluation:
 

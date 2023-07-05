@@ -22,7 +22,7 @@ def start_training_pipeline():
         data_ingestion_artifact = data_ingestion.initiate_data_ingestion()
         
         #data validation
-        data_validation_config = config_entity.DataValidationConfig(training_pipeline_config=training_pipeline_config)
+        data_validation_config = config_entity.DataValidationConfig(training_pipeline_config=training_pipeline_config, artifact_file= data_ingestion_artifact )
         data_validation = DataValidation(data_validation_config=data_validation_config,
                         data_ingestion_artifact=data_ingestion_artifact)
 
