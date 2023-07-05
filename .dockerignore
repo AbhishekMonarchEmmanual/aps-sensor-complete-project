@@ -8,3 +8,5 @@ save_models
 data_dump.py
 main.py
 test.ipynb
+batch_prediction.py
+train.py
