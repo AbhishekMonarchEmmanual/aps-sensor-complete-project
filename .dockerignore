@@ -1,0 +1,10 @@
+artifacts
+log
+notebook
+predicitons
+save_models
+*.egg-info
+.env
+data_dump.py
+main.py
+test.ipynb
