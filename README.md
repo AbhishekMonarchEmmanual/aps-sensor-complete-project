@@ -1,4 +1,10 @@
-# aps-sensor-complete-project
+## aps-sensor-complete-project
+
+# Introduction 
+the project is for detecting the fault in air pressure system based on the date/ reading we get from sensors. 
+
+
+
 
 MONGO_DB_URL = mongodb+srv://abhimonarch:Abhi123$@cluster0.6wagv.mongodb.net/?retryWrites=true&w=majority
 
